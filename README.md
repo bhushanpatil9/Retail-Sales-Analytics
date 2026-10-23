@@ -94,12 +94,13 @@ The validator checks the Excel sheets, required columns, completeness and basic 
 4. Read GPM, OPM, ROA, and ROE from the supplied segment metrics sheet. These are source-provided values, not recomputed from transaction-level profit or asset data.
 5. Use quarter and cost type as supplied in the cost sheet. The repository does not provide a cost calculation method.
 
-## Limitations
+## Screenshots
 
-- No profit or asset fields are provided at transaction level, so segment financial KPIs cannot be independently recalculated from the order records.
-- Duplicate order IDs mean order-level counts require a documented deduplication or line-item rule; this project reports row counts unless explicitly stated otherwise.
-- The source data's origin, update cadence, and license are not stated in the repository.
-- The Tableau workbook requires Tableau Desktop or Public for its interactive views.
+<img width="1306" height="801" alt="image" src="https://github.com/user-attachments/assets/6936275e-ad6b-4210-9c46-c3398993e8d6" />
+
+<img width="1304" height="805" alt="image" src="https://github.com/user-attachments/assets/5a0501d2-5f59-4790-be7a-60784b0cc84f" />
+
+<img width="1305" height="801" alt="image" src="https://github.com/user-attachments/assets/5447065f-81eb-4b16-8f5c-694b6d08dceb" />
 
 ## Repository layout
 
